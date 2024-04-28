@@ -3,26 +3,52 @@ const fs = require('fs');
 
 async function generateREADME() {
     const answers = await inquirer.prompt([
-        {
-            type: 'input',
-            name: 'title',
-            message: 'Enter the title of your project:'
-        },
-        {
-            type: 'input',
-            name: 'description',
-            message: 'Enter a description of your project:'
-        },
-        {
-            type: 'input',
-            name: 'installation',
-            message: 'Instructions on how to install:'
-        },
-        {
-            type: 'input',
-            name: 'usage',
-            message: 'What is this project used for?'
-        },
+      {
+        type: 'input',
+        name: 'title',
+        message: 'Enter the title of your project:'
+    },
+      {
+        type: 'input',
+        name: 'description',
+        message: 'Please provide a description of your project:'
+      },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'How do you install this project?'
+      },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'How do you use this project?'
+      },
+      {
+        type: 'input',
+        name: 'contributing',
+        message: 'How can others contribute to this project?'
+      },
+      {
+        type: 'input',
+        name: 'tests',
+        message: 'How do you run tests for this project?'
+      },
+      {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project:',
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'None']
+      },
+      {
+        type: 'input',
+        name: 'githubUsername',
+        message: 'What is your GitHub username?'
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+      }
         // Add more prompts for license, contributing guidelines, tests, etc.
     ]);
 
