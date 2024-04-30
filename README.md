@@ -4,8 +4,8 @@
 ## Description
 The Readme Generator is a command-line application built using Node.js that allows users to easily generate professional README.md files for their software projects.
 
-<b>Live<b>
-![alt text](<Untitled video - Made with Clipchamp (3).gif>)
+[<b>LIVE<b>](https://drive.google.com/file/d/1u4q61hn1oeL9aaa27O8pEgS0gUpe2NM5/view)
+![RECORDING](<Untitled video - Made with Clipchamp (3).gif>)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -25,7 +25,7 @@ Follow the prompts to enter your project details. The application will generate 
 This project is licensed under the MIT license.
 
 ## Contributing
-1. fork 2.clone 3. create 4.make 5.commit 6.push
+1. fork 2.clone 3. create 4.make 5.commit 6.push 7.submit
  
 ## Tests
 npm intall then npm test
